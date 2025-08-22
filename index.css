@@ -1,0 +1,22 @@
+
+h1 {
+    font-family: Arial;
+}
+
+p#paragrafo {
+    font-family: Arial;
+}
+
+a#gorila img{
+    opacity: 0;
+    transition: 1s;
+    border: 1px solid rgba(0, 0, 0, .5);
+  
+}
+
+a#gorila img:hover {
+    opacity: 1;
+    transition: 1s;
+    border: 1px solid rgba(0, 0, 0, .5);
+
+}
